@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header {
+    background-color: bisque;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.sidebar {
+    background-color: chartreuse;
+    grid-column: 1 / 2;
+}
